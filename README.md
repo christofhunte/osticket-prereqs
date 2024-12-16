@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-  ![Screenshot 2024-12-12 12 47 07 AM](https://github.com/user-attachments/assets/97695f0b-e794-4cc0-8008-82dbe5b361d3)
+  ![image](https://github.com/user-attachments/assets/0138bde2-8f85-412d-83dd-fb9fba71edb5)
 <p>
 The first thing I did was go into Azure cloud and create a Windows 10 virtual machine. I made sure to run a vm with 2 vcpus to ensure the server could handle all of the files.
 </p>
