@@ -27,24 +27,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-  ![image](https://github.com/user-attachments/assets/0138bde2-8f85-412d-83dd-fb9fba71edb5)
+<img src="https://i.imgur.com/wuSQPWr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/gcaaTSd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <p>
-The first thing I did was go into Azure cloud and create a Windows 10 virtual machine. I made sure to run a vm with 2 vcpus to ensure the server could handle all of the files.
+The first thing I did was go into Azure cloud and create a Windows 10 virtual machine. I made sure to run a VM with 2 vcpus to ensure the server could handle all of the files. I also set the machine to create its own virtual network and set the port to RDP. After the VM was set up I took the Public IP address created by the VM, installed and opened Microsoft Remote desktop to launch the Windows Server. I logged in with VM user account and Uploaded the osTicket installation files needed onto the server desktop and extracted all the fies.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/h4cywGY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OHhHSbw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next thing I did was install IIS with CGI. Then I installed the sofware in the osTicket-Installation-Files including the PHP Manager for IIS, the Rewrite Module, MySQL, etc. I also created a PHP folder on the C drive and extracted the PHP 7.3.8 contents from the "osTicket" folder into the PHP folder. I launched the MySQL Configuration Wizard and created a username and password. I then registered the PHP in the IIS. I then lauched the osTicket zip file in the folder and copied the upload folder and pasted it into the inetpub folder in the C drive and renamed it into osTicket. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3qhgrG7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I then browsed the osTicket site and enabled extensions that were necessary for the site to work in the PHP manager such as php_imap.dll, php_intl.dll and php_opcache.dll. 
 </p>
 <br />
