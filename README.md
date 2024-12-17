@@ -45,8 +45,10 @@ The next thing I did was install IIS with CGI. Then I installed the sofware in t
 
 <p>
 <img src="https://i.imgur.com/3qhgrG7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KHpTBKP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iRD7DB5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I then browsed the osTicket site and enabled extensions that were necessary for the site to work in the PHP manager such as php_imap.dll, php_intl.dll and php_opcache.dll. 
+I then browsed the osTicket site and enabled extensions that were necessary for the site to work in the PHP manager such as php_imap.dll, php_intl.dll and php_opcache.dll. After assigning permissions to the ost-config.php, I continued setting up osTicket in my browser such as naming the Helpdesk, creating the Admin user and matching the database settings to the one created on Heidi SQL software I installed on the backend. After that I finished installing osTicket and I created my own personal ticketing system.
 </p>
 <br />
