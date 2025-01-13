@@ -205,7 +205,7 @@ This is a guide for setting up the prerequisites and installing osTicket, an ope
 
 ![image](https://github.com/user-attachments/assets/99bbfaba-56c8-4809-be75-3229807c0e23)
 <br><br>
-<p><strong>- NOTE: Registration will require you to provide a path to "php-cgie.exe". Lead it to the PHP folder previously created and you will find the file "php-cgi"
+<p> Registration will require you to provide a path to "php-cgie.exe". Lead it to the PHP folder previously created and you will find the file "php-cgi"
 </strong></p>
 <br>
 
@@ -340,5 +340,5 @@ This is a guide for setting up the prerequisites and installing osTicket, an ope
 ![image](https://github.com/user-attachments/assets/f85b00ca-ed7e-48bd-baaf-96a594f373e2)
 <br>
 <br>
--The project is complete at this point.
+<p>The project is complete at this point.
 <br>
