@@ -340,5 +340,5 @@ This is a guide for setting up the prerequisites and installing osTicket, an ope
 ![image](https://github.com/user-attachments/assets/f85b00ca-ed7e-48bd-baaf-96a594f373e2)
 <br>
 <br>
-<h1>The project is complete at this point.
+-The project is complete at this point.
 <br>
